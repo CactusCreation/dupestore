@@ -1,10 +1,20 @@
-package com.example.client;
+package com.cactuscreative.dupestore.client;
 
+import com.cactuscreative.dupestore.client.util.Exploit;
+import com.cactuscreative.dupestore.client.util.ExploitApi;
 import net.fabricmc.api.ClientModInitializer;
 
-public class ExampleModClient implements ClientModInitializer {
+import java.io.IOException;
+import java.util.List;
+
+public class DupeStoreClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-		// This entrypoint is suitable for setting up client-specific logic, such as rendering.
-	}
+		ExploitApi exploitApi = new ExploitApi();
+        try {
+			List<Exploit> exploits = exploitApi.getExploits(1000000);
+        } catch (IOException | InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
