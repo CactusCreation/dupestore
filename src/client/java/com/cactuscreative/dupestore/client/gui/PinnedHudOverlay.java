@@ -27,8 +27,8 @@ public class PinnedHudOverlay {
 
             int x = savedX;
             int y = savedY;
-            int width = 220;
-            int height = 140;
+            int width = 180;
+            int height = 240;
             int x2 = x + width;
             int y2 = y + height;
 
