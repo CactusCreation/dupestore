@@ -9,4 +9,4 @@ pluginManagement {
 	}
 }
 
-rootProject.name = 'dupestore'
+rootProject.name = 'dupedocs'

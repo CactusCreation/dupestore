@@ -1,9 +1,9 @@
-package com.cactuscreative.dupestore.client.gui;
+package com.cactuscreative.dupedocs.client.gui;
 
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
-import com.cactuscreative.dupestore.client.util.Exploit;
+import com.cactuscreative.dupedocs.client.util.Exploit;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.render.RenderTickCounter;
 

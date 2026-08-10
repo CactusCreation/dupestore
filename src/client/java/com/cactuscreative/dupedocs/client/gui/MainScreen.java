@@ -1,4 +1,4 @@
-package com.cactuscreative.dupestore.client.gui;
+package com.cactuscreative.dupedocs.client.gui;
 
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
@@ -14,7 +14,7 @@ public abstract class MainScreen extends Screen {
     @Override
     protected void init() {
         super.init();
-        this.mainPanel = new MainPanel(this.textRenderer, 100, 50, 280, 240, Text.literal("Dupe Store"));
+        this.mainPanel = new MainPanel(this.textRenderer, 100, 50, 280, 240, Text.literal("Dupe Docs"));
         this.addDrawableChild(this.mainPanel);
     }
 

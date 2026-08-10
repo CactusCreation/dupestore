@@ -1,22 +1,22 @@
 {
 	"schemaVersion": 1,
-	"id": "dupestore",
+	"id": "dupedocs",
 	"version": "${version}",
-	"name": "DupeStore",
+	"name": "DupeDocs",
 	"description": "A small mod allowing you to see duplication methods that have historically worked, in attempt to make plugin debugging easier.",
 	"authors": [
 		"CactusCreative"
 	],
 	"contact": {
-		"homepage": "https://github.com/CactusCreation/dupestore",
-		"sources": "https://github.com/CactusCreation/dupestore"
+		"homepage": "https://github.com/CactusCreation/dupedocs",
+		"sources": "https://github.com/CactusCreation/dupedocs"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/dupestore/icon.png",
+	"icon": "assets/dupedocs/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"client": [
-			"com.cactuscreative.dupestore.client.DupeStoreClient"
+			"com.cactuscreative.dupedocs.client.DupeDocsClient"
 		]
 	},
 	"depends": {

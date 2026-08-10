@@ -1,12 +1,12 @@
-package com.cactuscreative.dupestore.client.gui;
+package com.cactuscreative.dupedocs.client.gui;
 
-import com.cactuscreative.dupestore.client.DupeStoreClient;
+import com.cactuscreative.dupedocs.client.DupeDocsClient;
 import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.narration.NarrationMessageBuilder;
 import net.minecraft.client.gui.widget.ScrollableWidget;
 import net.minecraft.text.Text;
-import com.cactuscreative.dupestore.client.util.Exploit;
+import com.cactuscreative.dupedocs.client.util.Exploit;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,8 +28,8 @@ public class MainScrollFrame extends ScrollableWidget {
 
     public void refreshItems() {
         this.items.clear();
-        if (DupeStoreClient.exploits != null) {
-            for (Exploit exploit : DupeStoreClient.exploits) {
+        if (DupeDocsClient.exploits != null) {
+            for (Exploit exploit : DupeDocsClient.exploits) {
                 String title = exploit.title() != null ? exploit.title() : "Unknown Exploit";
                 String desc = exploit.description() != null ? exploit.description() : "No description.";
                 String detailsLabel = "#" + exploit.id();

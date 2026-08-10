@@ -1,4 +1,4 @@
-package com.cactuscreative.dupestore.client.gui;
+package com.cactuscreative.dupedocs.client.gui;
 
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.Drawable;
@@ -7,7 +7,7 @@ import net.minecraft.client.gui.Selectable;
 import net.minecraft.client.gui.screen.narration.NarrationMessageBuilder;
 import net.minecraft.text.Text;
 import net.minecraft.client.font.TextRenderer;
-import com.cactuscreative.dupestore.client.util.Exploit;
+import com.cactuscreative.dupedocs.client.util.Exploit;
 
 public class MainPanel implements Drawable, Element, Selectable {
     private int x;

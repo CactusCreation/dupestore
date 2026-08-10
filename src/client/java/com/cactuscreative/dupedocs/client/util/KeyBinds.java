@@ -1,4 +1,4 @@
-package com.cactuscreative.dupestore.client.util;
+package com.cactuscreative.dupedocs.client.util;
 
 import net.minecraft.client.option.KeyBinding;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
@@ -14,7 +14,7 @@ public class KeyBinds {
                 "Open GUI",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_R,
-                "Dupe Store"
+                "Dupe Docs"
         ));
     }
 }
