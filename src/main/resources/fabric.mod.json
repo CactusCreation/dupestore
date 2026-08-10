@@ -19,16 +19,10 @@
 			"com.cactuscreative.dupestore.client.DupeStoreClient"
 		]
 	},
-	"mixins": [
-		{
-			"config": "dupestore.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
 		"minecraft": "1.21.1",
-		"java": ">=25",
+		"java": ">=21",
 		"fabric-api": "*"
 	}
 }
